@@ -209,6 +209,9 @@ Clostridium_innocuum_HFG2 = addReaction(Clostridium_innocuum_HFG2, 'rxn37232_e0'
 Clostridium_innocuum_HFG2 = addReaction(Clostridium_innocuum_HFG2, 'rxn38360_e0',...
 '2 cpd00076[c0]  <=> cpd00190[c0] + cpd02298[c0]');
 
+% Clostridium_innocuum_HFG2 = addReaction(Clostridium_innocuum_HFG2, 'INULINASE_VMH',...
+% '29.0 cpd00001[c0] + cpd11602[c0] -> 29.0 cpd00082[c0] + cpd00027[c0]');
+
 %% Elimnar butyrate reactions in bacteroids and paracasei
 % surfNet(Clostridium_innocuum_HFG2, "cpd00211[e0]"); % inulina %%%% no tiene este metabolito
 surfNet(Bacteroides_thetaiotaomicron_VPI_5482, "cpd00211[e0]"); % inulina %%%% no tiene este metabolito
@@ -247,6 +250,10 @@ Lacticaseibacillus_paracasei_M38 = addReaction(Lacticaseibacillus_paracasei_M38,
 'cpd00001[c0] + cpd02298[c0]  -> cpd00076[c0] + cpd30321[c0]');
 Lacticaseibacillus_paracasei_M38 = addReaction(Lacticaseibacillus_paracasei_M38, 'rxn38360_e0',...
 '2 cpd00076[c0]  <=> cpd00190[c0] + cpd02298[c0]');
+
+% Lacticaseibacillus_paracasei_M38 = addReaction(Lacticaseibacillus_paracasei_M38, 'INULINASE_VMH',...
+% '29.0 cpd00001[c0] + cpd11602[c0] -> 29.0 cpd00082[c0] + cpd00027[c0]');
+
 %%
 % cpd00023 = L-Glutamate
 % cpd00281 = GABA
